@@ -1,13 +1,13 @@
-print("Boolean logic")
-a = input("a: ")
-b = input("b: ")
-# test expression
-if a < b:
-    # statement to be run
-    print(b)
+print("Check the largest number among three numbers")
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
 
-if a > b:
-    print(a)
-
-elif a == b:
-    print("a and b are equal")
+if a == b == c:
+    print("All numbers are equal")
+elif a >= b and a >= c:
+    print("a is the largest")
+elif b >= a and b >= c:
+    print("b is the largest")
+else:
+    print("c is the largest")
