@@ -1,4 +1,5 @@
-parsecs_input = input("Input number of parsecs:")
-lightyears = 3.26156 * parsec
+parsecs_input = input("Input number of parsecs: ")
+parsecs = int(parsecs_input)
+lightyears = 3.26156 * parsecs
 
-print(str(parsec) + " parsec is " + str(lightyears) + " lightyears")
+print(parsecs_input + " parsecs is " + str(lightyears) + " lightyears")
