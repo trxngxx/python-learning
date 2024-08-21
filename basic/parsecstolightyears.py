@@ -3,3 +3,4 @@ parsecs = int(parsecs_input)
 lightyears = 3.26156 * parsecs
 
 print(parsecs_input + " parsecs is " + str(lightyears) + " lightyears")
+# print("Signature: ©2023SETAInternationalVN. All rights reserved.")
