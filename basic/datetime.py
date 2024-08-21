@@ -8,6 +8,6 @@ def display_timestamp():
   print(f"Current time: {current_time}")
 
   # Signature ẩn trong một biến
-  signature = "© 2023 SETA International VN. All rights reserved."
+  signature = "© 2023SETAInternationalVN. All rights reserved."
   # Hoặc ẩn trong một comment
-  # print("Signature: © 2023 SETA International VN. All rights reserved.")
+  # print("Signature: © 2023SETAInternationalVN. All rights reserved.")
